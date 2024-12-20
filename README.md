@@ -4,7 +4,7 @@
 
 # Mô hình
 Phobert
-![image](https://github.com/user-attachments/assets/585e8cae-c6b0-4c79-9ac7-dd666258ee2e)
+code: https://www.kaggle.com/code/tiens0710/build-a-chatbot-with-phobert
 
 
 ## Demo
