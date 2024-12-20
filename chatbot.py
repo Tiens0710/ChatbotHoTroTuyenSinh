@@ -10,6 +10,8 @@ import time
 import nltk
 from nltk import word_tokenize
 from nltk.stem import PorterStemmer
+import nltk
+nltk.download('punkt_tab')
 
 import torch
 from torch.utils.data import Dataset
