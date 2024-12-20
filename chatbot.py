@@ -20,10 +20,10 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # dataset
-filename = 'D:\\chatbot\\processed_bert_test_data.json'
+filename = 'processed_bert_test_data.json'
 
 # model
-model_path = 'D:\\chatbot\\kaggle\\working\\chatbot'
+model_path = 'kaggle/working/chatbot'
 
 def load_json_file(filename):
     with open(filename, encoding='utf-8') as f:
