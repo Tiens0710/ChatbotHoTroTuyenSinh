@@ -1,6 +1,11 @@
-# Chatbot Ho Tro Tuyen Sinh
+# Chatbot Hỗ Trợ Tuyển Sinh
 
 Ứng dụng chatbot hỗ trợ tuyển sinh, sử dụng mô hình học sâu để trả lời câu hỏi của người dùng.
+
+# Mô hình
+Phobert
+![image](https://github.com/user-attachments/assets/585e8cae-c6b0-4c79-9ac7-dd666258ee2e)
+
 
 ## Demo
 https://chatbothotrotuyensinh-ug3389rhgbl8e3rhiwwbs5.streamlit.app/
