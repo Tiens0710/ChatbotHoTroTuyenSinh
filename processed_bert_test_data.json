@@ -1,0 +1,1179 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "chào",
+                "hi",
+                "xin chào",
+                "hello",
+                "chào bạn",
+                "heyy",
+                "??? ??? ??"
+            ],
+            "responses": [
+                "tôi có thể giups gì cho bạn không?",
+                "chào!",
+                "rất vui vì gặp bạn!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "hẹn gặp lại",
+                "bye bye",
+                "bye",
+                "hẹn gặp bạn vào lần tới",
+                "tôi đi đây",
+                "chúc bạn một ngày tốt lành",
+                "tạm biệt",
+                "goodbye"
+            ],
+            "responses": [
+                "hẹn gặp lại bạn lần sau",
+                "chào tạm biệt",
+                "tạm biệt",
+                "goodbye!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "ai thiết kế ra bạn",
+                "bạn được tạo ra từ đội nhóm nào",
+                "nhóm nào đã tạo ra bạn",
+                "ai đã tạo ra bạn",
+                "lâpj trình viên nào đã tạo ra bạn",
+                "ai là người tạo ra bạn"
+            ],
+            "responses": [
+                "sinh viên"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "whats your name?",
+                "tên",
+                "tôi đang nói chuyện với ai",
+                "tên của bạn là gì",
+                "tôi có thể gọi bạn là gì",
+                "bạn có tên không",
+                "bạn tên gì"
+            ],
+            "responses": [
+                "tôi là chatbot.",
+                "tôi là người có thể giúp bạn trả lời câu hỏi",
+                "bạn có thể gọi tôi là chatbot"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "salutaion",
+            "patterns": [
+                "ok",
+                "okie",
+                "cảm ơn",
+                "okk",
+                "okay",
+                "cảm ơn vì đã giúp",
+                "thanks",
+                "làm tốt lắm"
+            ],
+            "responses": [
+                "thật vui khi giúp được bạn",
+                "cảm ơn, có chuyện gì bạn có thể hỏi tui"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "task",
+            "patterns": [
+                "bạn có thể làm gì",
+                "bạn có thể giúp gì cho tôi",
+                "tại sao tôi lại cần bạn"
+            ],
+            "responses": [
+                "tôi có thể trả lời câu hỏi của bạn",
+                "bạn có thể hỏi tôi và tôi có thể trả lời câu hỏi của bạn"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introduced",
+            "patterns": [
+                "trường mình là trường gì",
+                "tên của trường là gì",
+                "trường được mang tên là gì",
+                "tên đầy đủ của trường",
+                "trường mình có tên là gì",
+                "tên trường"
+            ],
+            "responses": [
+                "trường có tên là đại học kĩ thuật - công nghệ cần thơ\nđịa chỉ: số 256 đường nguyễn văn cừ, p. an hòa, q. ninh kiều, tp. cần thơ.\nđiện thoại: 02923.898167 - 02923.890060./."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "address",
+            "patterns": [
+                "trường ở đường nào",
+                "địa chỉ trường",
+                "đường đến trường",
+                "trường ở đâu"
+            ],
+            "responses": [
+                "địa chỉ: số 256 đường nguyễn văn cừ, p. an hòa, q. ninh kiều, tp. cần thơ"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hotline",
+            "patterns": [
+                "số điện thoại trường",
+                "liên hệ trường",
+                "cách liên hệ trường",
+                "hotline",
+                "số hotline của trường"
+            ],
+            "responses": [
+                "số điện thoại: 02923.898167 - 02923.890060./."
+            ]
+        },
+        {
+            "tag": "nature",
+            "patterns": [
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường công hay tư",
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường tư thục hay trường công lập",
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường công hay trường tư",
+                "trường là trường công lập hay tư thục",
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường tư hay công",
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường tư  hay trường công",
+                "trường là trường tư thục hay công lập",
+                "trường là trường tư hay trường công",
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường công lập hay trường tư thục",
+                "trường mình là trường công hay tư",
+                "trường là công hay tư",
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường tư thục hay công lập",
+                "hiện tại trường là trường công hay trường tư",
+                "trường là trường công hay trường tư",
+                "trường là trường tư thục hay trường công lập",
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường công lập hay tư thục",
+                "trường là trường công lập hay trường tư thục"
+            ],
+            "responses": [
+                "trường đại học kỹ thuật - công nghệ cần thơ là trường công lập."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "adMajor",
+            "patterns": [
+                "trường đại học có những ngành đào tạo nào nổi bật",
+                "ngành đào tạo mới của trường",
+                "trường hiện đang đào tạo bao nhiêu ngành",
+                "quy mô của trường như thế nào",
+                "ngành đào tạo của trường có phù hợp với thị trường quốc tế không",
+                "trường có phải là trường đại học đa ngành hay không",
+                "quy mô sinh viên của trường là bao nhiêu",
+                "ngành đào tạo của trường có phù hợp với thị trường lao động không",
+                "hiện nay trường mình có bao nhiêu ngành đào tạo",
+                "có ngành đào tạo mới không",
+                "hiện nay trường đào tạo đại học chính quy bao nhiêu ngành, quy mô, có ngành đào tạo mới không",
+                "quy mô của trường mình như thế nào",
+                "các ngành đào tạo thế mạnh của trường là gì",
+                "trường hiện nay có bao nhiêu ngành đào tạo chính quy",
+                "ngành đào tạo mới là gì",
+                "các ngành thế mạnh của trường"
+            ],
+            "responses": [
+                "trường hiện có quy mô lớn với hơn 6.000 sinh viên, đào tạo đa dạng 22 ngành thuộc 10 lĩnh vực. các ngành đào tạo tập trung vào những lĩnh vực mũi nhọn, đáp ứng nhu cầu cấp thiết của thị trường lao động. sinh viên tốt nghiệp không chỉ được trang bị kiến thức chuyên môn vững vàng mà còn có cơ hội việc làm hấp dẫn tại các doanh nghiệp trong nước và quốc tế."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "adZone",
+            "patterns": [
+                "vùng tuyển tuyển sinh đại học",
+                "trường tuyển sinh ở khu vực nào",
+                "vùng tuyển sinh của trường",
+                "tuyển sinh đối tượng nào",
+                "vùng tuyển tuyển sinh thạc sĩ",
+                "vùng tuyển tuyển sinh đại học, thạc sĩ năm 2024",
+                "khu vực trường tuyển sinh hệ đại",
+                "đối tượng tuyển sinh của trường",
+                "các khu vực trường tuyển sinh",
+                "đối tượng tuyển sinh hệ đại",
+                "vùng tuyển tuyển sinh hệ đại"
+            ],
+            "responses": [
+                "vùng tuyển sinh: thành phố cần thơ, vùng đbscl và cả nước. đối tượng xét tuyển: thí sinh tốt nghiệp thpt"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "adUni",
+            "patterns": [
+                "chỉ tiêu tuyển sinh đại học",
+                "năm 2024, trường tuyển sinh hệ đại bao nhiêu",
+                "hệ đại có chỉ tiêu bao nhiêu",
+                "năm nay trường có chỉ tiêu tuyển sinh hệ đại bao nhiêu",
+                "chỉ tiêu tuyển sinh hệ đại của trường",
+                "chỉ tiêu tuyển sinh hệ đại",
+                "chỉ tiêu tuyển sinh đại học năm 2024?",
+                "số lượng tuyển sinh hệ đại năm 2024",
+                "chỉ tiêu hệ đại năm 2024",
+                "hệ đại tuyển sinh bao nhiêu",
+                "chỉ tiêu hệ đại"
+            ],
+            "responses": [
+                "chỉ tiêu dự kiến: đại học chính quy (cq): 1.700; đại học vừa làm vừa học (vlvh): 300"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "adMaster",
+            "patterns": [
+                "thời gian đào tạo thạc sĩ ngành công nghệ thực phẩm",
+                "thạc sĩ thường học vào thứ mấy",
+                "các học phần thạc sĩ được học vào thứ mấy",
+                "chỉ tiêu tuyển sinh thạc sĩ công nghệ thực phẩm",
+                "phương thức tuyển sinh thạc sĩ ngành công nghê thực phẩm",
+                "thời gian học thạc sĩ",
+                "tuyển sinh thạc sĩ ngành công nghệ thực phẩm",
+                "thạc sĩ ngành công nghệ thực phẩm",
+                "thông tin tuyển sinh thạc sĩ ngành công nghệ thực phẩm năm 2024"
+            ],
+            "responses": [
+                "+ chỉ tiêu: 25 :\n d+ phương thức tuyển sinh: xét tuyển;\n+ thời gian đào tạo: 1,5 - 2,0 năm (học vào ngày: thứ bảy và chủ nhật)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "adProcess",
+            "patterns": [
+                "phương thức xét tuyển hệ đại",
+                "tuyển sinh đại học",
+                "phương thức tuyển sinh đại học",
+                "phương thức tuyển sinh đại học của trường đại học kỹ thuật - công nghệ cần thơ năm 2024",
+                "các phương thức tuyển sinh hệ đại",
+                "phương thức xét tuyển đại học",
+                "xét tuyển hệ đại",
+                "phương thức tuyển sinh hệ đại",
+                "trường có bao nhiêu phương thức tuyển sinh",
+                "phương thức xét tuyển đại học của trường đại học kỹ thuật - công nghệ cần thơ năm 2024",
+                "trường có bao nhiêu phương thức xét tuyển"
+            ],
+            "responses": [
+                "thí sinh chọn ngành để đăng ký xét tuyển theo 02 phương thức:\n - kết quả học bạ thpt (mã phương thức xét tuyển: 200)\n+ cách 1. kết quả học bạ học kỳ i, ii lớp 10, lớp 11 và học kỳ i lớp 12 theo tổ hợp môn xét tuyển (tổng điểm của tổ hợp đạt từ 18 điểm trở lên).\n+ cách 2. kết quả học bạ năm lớp 12 theo tổ hợp môn xét tuyển (tổng điểm của tổ hợp đạt từ 18 điểm trở lên).\n- kết quả kỳ thi tốt nghiệp thpt 2024 (mã phương thức: 100): theo tổ hợp môn xét tuyển (xét tuyển theo kế hoạch của bộ giáo dục và đào tạo)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "adTime",
+            "patterns": [
+                "thời gian nộp học bạ",
+                "thời gian xét tuyển năm 2024",
+                "thời gian xét tuyển của trường",
+                "thời gian trường xét tuyển",
+                "thời gian nộp hồ sơ",
+                "thời gian nộp hồ sơ xét tuyển",
+                "khoảng thời gian trường xét tuyển",
+                "khi nào trường xét tuyển"
+            ],
+            "responses": [
+                "thời gian đăng ký và công bố kết quả xét tuyển sớm: tháng 3/2024 đến ngày 05/6/2024; công bố kết quả thí sinh đủ điều kiện trúng tuyển sớm: ngày 12/6/2024."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "decision",
+            "patterns": [
+                "đăng ký xét tuyển 2024",
+                "cách thức đăng ký xét tuyển năm 2024",
+                "cách để đăng ký xét tuyển vào trường",
+                "làm sao để đăng ký xét tuyển",
+                "cách đăng ký xét tuyển"
+            ],
+            "responses": [
+                "cách thức đăng ký và nộp hồ sơ: thí sinh thực hiện đăng ký và nộp hồ sơ theo hướng dẫn tại website tuyển sinh của trường: https://tuyensinh.ctuet.edu.vn/",
+                "#- thí sinh đăng ký trực tuyến tại: https://quanlyxettuyen.ctuet.edu.vn \n+ đối với trường hợp thí sinh muốn đăng ký xét tuyển bằng học bạ thpt: các em có thể nộp hồ sơ ngay khi có đầy đủ kết quả học tập;\n + đối với trường hợp xét tuyển bằng kết quả kỳ thi thpt năm 2024: các em có thể đăng ký ngay khi có kết quả thi thpt theo quy định thời gian đăng ký xét tuyển tuyển sinh của bộ giáo dục và đào tạo và trường đại học kỹ thuật - công nghệ cần thơ (được cập nhật thường xuyên trên trang thông tin điện tử của trường, facebook, zalo...)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "applyfee",
+            "patterns": [
+                "phải nộp bao nhiêu tiền để xét tuyển",
+                "lệ phí xét tuyển",
+                "lệ phí xét tuyển sớm"
+            ],
+            "responses": [
+                "lệ phí xét tuyển hệ đại học chính quy: 20.000 đồng/ nguyện vọng \n lệ phí xét tuyển hệ đại học vừa làm vừa học: 100.000 đồng/ hồ sơ\nthí sinh nộp lệ phí theo hướng dẫn khi thực hiện đăng ký tại website đăng ký xét tuyển của trường: https://tuyensinh.ctuet.edu.vn/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "tuition",
+            "patterns": [
+                "học phí",
+                "học phí ngành",
+                "chi phí học tập",
+                "học phí của trường như thế nào"
+            ],
+            "responses": [
+                "học phí học kỳ i: tùy thuộc vào khối ngành và hình thức đào tạo\n- đại học chính quy: từ 7.520.000 đồng đến 8.000.000 đồng\n- đại học vừa làm vừa học: từ 8.960.000 đồng đến 9.500.000 đồng"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "schoolarship",
+            "patterns": [
+                "học bổng của trường",
+                "học bổng",
+                "trường có học bổng không",
+                "chính sách học bổng"
+            ],
+            "responses": [
+                "trường dành trên 4 tỷ đồng khen thưởng thủ khoa, học bổng khuyến học, khuyến tài"
+            ]
+        },
+        {
+            "tag": "dorm",
+            "patterns": [
+                "trường có ký túc xá cho sinh viên không",
+                "ký túc xá trường ở đâu",
+                "ký túc xá",
+                "trường có ký túc xá không"
+            ],
+            "responses": [
+                "uy rằng hiện tại trường chưa có ký túc xá cho sinh viên. tuy nhiên, trường vẫn cung cấp cách thức liên hệ các nhà trọ gần trường để sinh viên có thể tham khảo thuê"
+            ]
+        },
+        {
+            "tag": "quality",
+            "patterns": [
+                "chất lượng của trường",
+                "chất lượng đào tạo",
+                "chất lượng",
+                "chất lượng giảng viên",
+                "các điều kiện đảm bảo chất lượng",
+                "cơ sở vật chất"
+            ],
+            "responses": [
+                "- đội ngũ gv: trên 240 giảng viên, có trình độ thạc sĩ, tiến sĩ;\n- trường có 02 cơ sở với tổng diện tích 18,9 ha;\n- phòng thực hành, thí nghiệm: 27 phòng\n- phòng học: trên 70 phòng, tất cả các phòng đều được trang bị hiện đại, đáp ứng yêu cầu giảng dạy và học tập.\n- thư viện trường:\n+ thư viện điện tử trên 197.000 sách và tài liệu tham khảo.\n+ sách in: trên 21.573 bản/3563 đầu sách;\n+ báo, tạp chí: trên 41 loại."
+            ]
+        },
+        {
+            "tag": "edu",
+            "patterns": [
+                "bằng kỹ sư",
+                "số tín chỉ phải học",
+                "bằng cử nhân",
+                "trường đào tạo bằng gì",
+                "bằng kỹ sư bao nhiêu tín chỉ",
+                "bằng cử nhân bao nhiêu tín chỉ",
+                "khi ra trường nhận bằng gì",
+                "học bao nhiêu tín chỉ",
+                "trường đh kỹ thuật - công nghệ cần thơ đào tạo cấp bằng cử nhân hay kỹ sư"
+            ],
+            "responses": [
+                "trường đh kỹ thuật - công nghệ cần thơ có cả 02 chương trình:\n+ chương trình đào tạo cấp bằng cử nhân có thời gian học tối đa 4,0 năm, với tổng số tín chỉ 141\n+ chương trình đào tạo cấp bằng kỹ sư có thời gian học tối đa 4,5 năm, với tổng số tín chỉ 161."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "eGra",
+            "patterns": [
+                "có thể học vượt ra trường sớm không",
+                "trường kỹ thuật - công nghệ cần thơ có cho phép sinh viên hoàn thành chương trình đào tạo sớm không",
+                "có thể ra trường sớm không",
+                "ra trường sớm"
+            ],
+            "responses": [
+                "tùy vào ngành đào tạo (khối ngành) trường đại học kỹ thuật - công nghệ cần thơ tổ chức đào tạo theo phương thức đào tạo tín chỉ. sv sẽ chủ động lựa chọn môn học trong chương trình đào tạo để hoàn thành sớm. như vậy, nếu có năng lực học tập tốt thì em hoàn toàn có thể hoàn thành chương trình đào tạo 4,0 năm trong vòng 3,5 năm (cấp bằng cử nhân), chương trình đào tạo 4,5 năm trong vòng 4,0 năm (cấp bằng kỹ sư) và tốt nghiệp sớm trước thời hạn. điều đó phụ thuộc rất nhiều vào sự nỗ lực, cố gắng của em."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "AP",
+            "patterns": [
+                "học vượt",
+                "có thể học vượt không",
+                "trường có học vượt không"
+            ],
+            "responses": [
+                "tùy vào ngành đào tạo (khối ngành) trường đại học kỹ thuật - công nghệ cần thơ tổ chức đào tạo theo phương thức đào tạo tín chỉ.\ntrường sẽ đăng ký sẵn các môn bắt buột học ở một học kỳ, em có thể chủ động đăng ký thêm môn để học vượt\nkhi các em đăng ký thêm học phần, cần phải nắm chắc năng lực của mình để tránh việc phải học lại."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "job",
+            "patterns": [
+                "việc làm sau khi ra trường",
+                "việc làm",
+                "trường có giới thiệu việc làm không",
+                "sau khi tốt nghiệp sinh viên có được giới thiệu việc l,àm không"
+            ],
+            "responses": [
+                "sinh viên ra trường được nhà trường giới thiệu việc làm hoàn toàn.\nnhà trường đã ký thỏa thuận với nhiều khu công nghiệp, công ty, doanh nghiệp, các đối tác nhật,hàn quốc…mở ra cơ hội kiến tập, thực tập và làm việc chính thức tại các nhà máy, công ty."
+            ]
+        },
+        {
+            "tag": "LikeIT",
+            "patterns": [
+                "em rất thích các ngành thuộc lĩnh vực công nghệ thông tin nhưng cấp 3 của em chưa biết lập trình thì em có thể theo học ngành này tại trường hay không"
+            ],
+            "responses": [
+                "khi vào học các chương trình của trường đh kỹ thuật - công nghệ cần thơ, em sẽ có nhiều cơ hội học bổ sung những mảng kiến thức để hỗ trợ cho định hướng nghề nghiệp trong tương lai. với sự đam mê và quyết tâm thì em hoàn toàn có thể theo học và đạt được kết quả tốt"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbFacuLtyIT",
+            "patterns": [
+                "tổ hợp xét tuyển ngành cntt",
+                "tổ hợp xét tuyển ngành khdl",
+                "tổ hợp ngành cntt",
+                "tổ hợp xét tuyển ngành công nghệ thông tin",
+                "tổ hợp xét tuyển ngành ktpm",
+                "tổ hợp xét tuyển ngành khoa học máy tính",
+                "tổ hợp xét tuyển ngành khmt",
+                "tổ hợp xét tuyển ngành hệ thống thông tin",
+                "tổ hợp xét tuyển ngành kỹ thuật phần mềm",
+                "tổ hợp xét tuyển ngành khoa học dữ liệu"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển các ngành thuộc khoa công nghệ thông tin bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), c01(văn, sử, địa), d01(toán, văn, anh)",
+                "tổ hợp tuyển sinh các ngành thuộc khoa công nghệ thông tin bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), c01(văn, sử, địa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbISE",
+            "patterns": [
+                "tổ hợp ngành kthtcn",
+                "tổ hợp xét tuyển kĩ thuật hệ thống công nghiệp",
+                "tổ hợp xét tuyển ngành kthtcn"
+            ],
+            "responses": [
+                "tổ hợp tuyển sinh ngành kĩ thuật hệ thống công nghiệp bao gồm a00 (toán, lý, hóa), c02(văn, toán, hóa), c01(văn, sử, địa), d01(toán, văn, anh)",
+                "tổ hợp xét tuyển ngành kĩ thuật hệ thống công nghiệp bao gồm a00 (toán, lý, hóa), c02(văn, toán, hóa), c01(văn, sử, địa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbLSCM",
+            "patterns": [
+                "tổ hợp xét tuyển ngành logistic",
+                "tổ hợp ngành logistic",
+                "tổ hợp xét tuyển ngành logistic và quản lý chuỗi cung ứng"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành logistic và quản lý chuỗi cung ứng bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp tuyển sinh ngành logistic và quản lý chuỗi cung ứng bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbIM",
+            "patterns": [
+                "tổ hợp ngành quản lý công nghiệp",
+                "tổ hợp xét tuyển ngành qlcn"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành quản lý công nghiệp bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp tuyển sinh ngành quản lý công nghiệp bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbCM",
+            "patterns": [
+                "tổ hợp xét tuyển ngành qlxd",
+                "tổ hợp ngành quản lý xây dựng",
+                "tổ hợp xét tuyển ngành quản lý xây dựng"
+            ],
+            "responses": [
+                "tổ hợp tuyển sinh ngành quản lý xây dựng bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp xét tuyển ngành quản lý xây dựng bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbCET",
+            "patterns": [
+                "tổ hợp xét tuyển ngành cnktctxd",
+                "tổ hợp ngành công nghệ kỹ thuật công trình xây dựng",
+                "tổ hợp xét tuyển ngành  công nghệ kỹ thuật công trình xây dựng"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật công trình xây dựng bao gồm a00 (toán, lý, hóa), a02(toán, lý, sinh), c01(văn, sử, địa), d01(toán, văn, anh)",
+                "tổ hợp tuyển sinh ngành công nghệ kỹ thuật công trình xây dựng bao gồma00 (toán, lý, hóa), a02(toán, lý, sinh), c01(văn, sử, địa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbEET",
+            "patterns": [
+                "tổ hợp ngành công nghệ kỹ thuật năng lượng",
+                "tổ hợp xét tuyển ngành  công nghệ kỹ thuật năng lượng",
+                "tổ hợp xét tuyển ngành cnktnl"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật năng lượng bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)",
+                "tổ hợp tuyển sinh ngành công nghệ kỹ thuật năng lượng bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "SBEEET",
+            "patterns": [
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật điện, điện tử",
+                "tổ hợp xét tuyển ngành cnktdddt",
+                "tổ hợp ngành công nghệ kỹ thuật điện, điện tử"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật điện, điện tử bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)",
+                "tổ hợp tuyển sinh ngành công nghệ kỹ thuật điện, điện tử bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbMET",
+            "patterns": [
+                "tổ hợp xét tuyển ngành cnktcdt",
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật cơ điện tử",
+                "tổ hợp ngành công nghệ kỹ thuật cơ điện tử"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật cơ điện tử bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)",
+                "tổ hợp tuyển sinh ngành công nghệ kỹ thuật cơ điện tử bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbCAET",
+            "patterns": [
+                "tổ hợp xét tuyển ngành cnktdkvtdh",
+                "tổ hợp ngành công nghệ kỹ thuật điều khiển và tự động hóa",
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật điều khiển và tự động hóa"
+            ],
+            "responses": [
+                "tổ hợp tuyển sinh ngành công nghệ kỹ thuật điều khiển và tự động hóa bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)",
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật điều khiển và tự động hóa bao gồm a00 (toán, lý, hóa), a01(toán, lý, anh), a02(toán, lý, sinh), c01(văn, sử, địa)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbCET",
+            "patterns": [
+                "tổ hợp xét tuyển ngành cnkthh",
+                "tổ hợp ngành công nghệ kỹ thuật hóa học",
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật hóa học"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành công nghệ kỹ thuật hóa học bao gồm a00 (toán, lý, hóa), a11(toán, lý, sinh), b00(toán, hóa, sinh), c02(văn, toán, hóa)",
+                "tổ hợp tuyển sinh ngành công nghệ kỹ thuật hóa học bao gồm a00 (toán, lý, hóa), a11(toán, lý, sinh), b00(toán, hóa, sinh), c02(văn, toán, hóa)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbFT",
+            "patterns": [
+                "tổ hợp xét tuyển ngành cntp",
+                "tổ hợp xét tuyển ngành công nghệ thực phẩm",
+                "tổ hợp ngành công nghệ thực phẩm"
+            ],
+            "responses": [
+                "tổ hợp tuyển sinh ngành công nghệ thực phẩm bao gồm a00 (toán, lý, hóa), b00(toán, hóa, sinh), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp xét tuyển ngành công nghệ thực phẩm bao gồm a00 (toán, lý, hóa), b00(toán, hóa, sinh), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbBT",
+            "patterns": [
+                "tổ hợp xét tuyển ngành công nghệ sinh học",
+                "tổ hợp ngành công nghệ sinh học",
+                "tổ hợp xét tuyển ngành cnsh"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành công nghệ sinh học bao gồm a00 (toán, lý, hóa), b00(toán, hóa, sinh), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp tuyển sinh ngành công nghệ sinh học bao gồm a00 (toán, lý, hóa), b00(toán, hóa, sinh), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbFB",
+            "patterns": [
+                "tổ hợp xét tuyển ngành tcnh",
+                "tổ hợp ngành tài chính - ngân hàng",
+                "tổ hợp xét tuyển ngành tài chính - ngân hàng"
+            ],
+            "responses": [
+                "tổ hợp tuyển sinh ngành tài chính - ngân hàng bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp xét tuyển ngành tài chính - ngân hàng bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbAC",
+            "patterns": [
+                "tổ hợp xét tuyển ngành kế toán",
+                "tổ hợp ngành kế toán"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành kế toán bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp tuyển sinh ngành kế toán bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbBAdministration",
+            "patterns": [
+                "tổ hợp xét tuyển ngành quản trị kinh doanh",
+                "tổ hợp ngành quản trị kinh doanh",
+                "tổ hợp xét tuyển ngành qtkd"
+            ],
+            "responses": [
+                "tổ hợp tuyển sinh ngành quản trị kinh doanh bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)",
+                "tổ hợp xét tuyển ngành quản trị kinh doanh bao gồm a00 (toán, lý, hóa), c01(văn, sử, địa), c02(văn, toán, hóa), d01(toán, văn, anh)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbLaw",
+            "patterns": [
+                "tổ hợp xét tuyển ngành luật",
+                "tổ hợp ngành luật"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành luật bao gồm c00(văn, sử, địa), d01(toán, văn, anh), d14(toán, văn, pháp), d15(toán, văn trung)",
+                "tổ hợp tuyển sinh ngành luật bao gồm c00(văn, sử, địa), d01(toán, văn, anh), d14(toán, văn, pháp), d15(toán, văn trung)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sbEL",
+            "patterns": [
+                "tổ hợp ngành ngôn ngữ anh",
+                "tổ hợp xét tuyển ngành ngôn ngữ anh"
+            ],
+            "responses": [
+                "tổ hợp xét tuyển ngành luật bao gồm d01(toán, văn, anh), d14(toán, văn, pháp), d15(toán, văn trung), d68(văn, gdcd, nga)",
+                "tổ hợp tuyển sinh ngành luật bao gồm d01(toán, văn, anh), d14(toán, văn, pháp), d15(toán, văn trung), d68(văn, gdcd, nga)"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceCS",
+            "patterns": [
+                "khoa học máy tính",
+                "ngành khoa học máy tính"
+            ],
+            "responses": [
+                "ngành khoa học máy tính (khmt) là một lĩnh vực nghiên cứu về lý thuyết, phát triển và ứng dụng các hệ thống máy tính và phần mềm. ngành học này không chỉ tập trung vào lập trình mà còn nghiên cứu các vấn đề cơ bản về thuật toán, cấu trúc dữ liệu, hệ thống máy tính, trí tuệ nhân tạo (ai), học máy (machine learning), an toàn bảo mật thông tin, và nhiều lĩnh vực khác liên quan đến công nghệ thông tin."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obCS",
+            "patterns": [
+                "mục tiêu ngành khoa học máy tính",
+                "mục tiêu đào tạo ngành khoa học máy tính?"
+            ],
+            "responses": [
+                "có khả năng làm việc chuyên môn độc lập, vận dụng linh hoạt kiến thức, kỹ năng và thái độ xử lý các tình huống nghề nghiệp. có khả năng giao tiếp xã hội, làm việc hiệu quả trong nhóm. có khả năng sử dụng các phương tiện trong lĩnh vực cntt và truyền thông để trao đổi, quản lý, điều hành. có khả năng tự học, tự nghiên cứu và tiếp thu các thành tựu khoa học kỹ thuật nhằm tự nâng cao trình độ và thích nghi với sự phát triển của xã hội.",
+                "trang bị kiến thức cơ sở ngành về cntt tạo tiền đề nghiên cứu về các lĩnh vực theo một trong các hướng chuyên sâu về kỹ thuật máy tính, an toàn bảo mật hệ thống, xử lý ảnh và đồ họa máy tính.",
+                "có khả năng tổng hợp, đánh giá, phân tích vấn đề thuộc kiến thức ngành nghề. có khả năng trình bày và viết các báo cáo rõ ràng, chính xác. có khả năng đọc hiểu và viết được tài liệu chuyên môn bằng tiếng anh. có khả năng sử dụng hiệu quả các công cụ và các công nghệ tiên tiến. có khả năng thiết lập các mục tiêu khả thi, lập kế hoạch phù hợp với điều kiện thực tế, giải quyết các vấn đề liên quan đến lĩnh vực khmt.",
+                "chương trình đào tạo chuyên ngành khmt được xây dựng và triển khai nhằm mục tiêu đào tạo kỹ sư ngành khmt có phẩm chất chính trị vững vàng, có ý thức tổ chức kỷ luật, đạo đức nghề nghiệp.\nsinh viên được cung cấp kiến thức cơ bản về lĩnh vực cntt, kiến thức chuyên sâu ngành khmt, khả năng xây dựng mô hình và áp dụng vào thực tiễn xã hội.",
+                "kiến thức cơ bản và nền tảng: sinh viên sẽ được trang bị kiến thức cơ bản về khoa học xã hội và khoa học tự nhiên, từ đó có nền tảng vững chắc để tiếp thu các kiến thức chuyên sâu trong ngành khmt và khả năng học hỏi nâng cao trình độ.\nkiến thức chuyên ngành: trang bị kiến thức cơ sở về cntt, từ đó tạo tiền đề cho nghiên cứu chuyên sâu trong các lĩnh vực như kỹ thuật máy tính, an toàn bảo mật hệ thống, xử lý ảnh và đồ họa máy tính. \nkhả năng phân tích và giải quyết vấn đề: sinh viên sẽ có khả năng tổng hợp, đánh giá, phân tích các vấn đề thuộc lĩnh vực khmt, trình bày và viết báo cáo rõ ràng, chính xác.ngoài ra, chương trình đào tạo cũng giúp sinh viên cải thiện kỹ năng đọc hiểu và viết tài liệu chuyên môn bằng tiếng anh, cũng như sử dụng các công cụ và công nghệ tiên tiến. kỹ năng làm việc nhóm và độc lập:sinh viên sẽ phát triển khả năng làm việc độc lập và trong nhóm, giao tiếp xã hội hiệu quả, và sử dụng các phương tiện cntt trong việc trao đổi, quản lý và điều hành. khả năng tự học và tự nghiên cứu cũng được chú trọng để sinh viên có thể thích nghi với sự phát triển nhanh chóng của xã hội."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowCS",
+            "patterns": [
+                "khoa học máy tính được đào tạo gì?",
+                "khoa học máy tính học gì?",
+                "kiến thức ngành khoa học máy tính"
+            ],
+            "responses": [
+                "chương trình đào tạo ngành khoa học máy tính tại ctut cung cấp một nền tảng kiến thức vững chắc về công nghệ thông tin và khoa học máy tính, đồng thời phát triển kỹ năng thực hành và các kỹ năng mềm cần thiết để sinh viên có thể đáp ứng yêu cầu công việc trong các lĩnh vực công nghệ, nghiên cứu và giảng dạy. chương trình giúp sinh viên trở thành những chuyên gia có khả năng sáng tạo, giải quyết các vấn đề kỹ thuật, và thích nghi với sự phát triển nhanh chóng của ngành công nghệ thông tin",
+                "sinh viên được trang bị các kiến thức đại cương về lý luận chính trị, khoa học tự nhiên, và khoa học xã hội – nhân văn.\nkiến thức chuyên ngành bao gồm các lĩnh vực cơ bản như kiến trúc máy tính, hệ điều hành, ngôn ngữ lập trình, cấu trúc dữ liệu và thuật toán.\nsinh viên cũng được nghiên cứu và thực hành các hướng chuyên sâu như kỹ thuật máy tính, an toàn bảo mật hệ thống, và xử lý ảnh, đồ họa máy tính."
+            ]
+        },
+        {
+            "tag": "jobCS",
+            "patterns": [
+                "việc làm ngành khoa học máy tính?",
+                "ngành khao học máy tính ra trường làm gì"
+            ],
+            "responses": [
+                "giảng dạy các môn liên quan đến cntttại các trường đại học, cao đẳng, trung học chuyên nghiệp, dạy nghề và các trường phổ thông theo quy định của bộ giáo dục và đào tạo.",
+                "lập trình viên phần mềm, kỹ sư phần mềm\n - chuyên viên bảo mật mạng\n - quản trị hệ thống và mạng\n - nhà phát triển ứng dụng di động và web\n - chuyên gia trí tuệ nhân tạo và học máy\n - chuyên viên phân tích và thiết kế cơ sở dữ liệu\n - giảng viên, nghiên cứu viên tại các cơ sở đào tạo, viện nghiên cứu",
+                "nghiên cứu khoa học thuộc các lĩnh vực về cntt ở các viện nghiên cứu, trường đại học và cao đẳng, tổ chức và cơ quan của các bộ, ngành…",
+                "làm việc ở bộ phận cntt hoặc cần ứng dụng cntt của các đơn vị có nhu cầu (hành chính sự nghiệp, ngân hàng, viễn thông, hàng không, xây dựng…).",
+                "chuyên viên phân tích, thiết kế, cài đặt, quản trị, bảo trì phần mềm, đáp ứng nhu cầu ứng dụng cntt trong các cơ quan, công ty, trường học...",
+                "làm việc trong các công ty sản xuất, gia công phần mềm trong nước và nước ngoài.\n- làm việc tại các công ty tư vấn về đề xuất giải pháp, xây dựng và bảo trì các hệ thống thông tin"
+            ]
+        },
+        {
+            "tag": "introceDS",
+            "patterns": [
+                "khoa học dữ liệu",
+                "ngành khoa học dữ liệu",
+                "giới thiệu về khoa học dữ liệu",
+                "khoa học dữ liệu là gì"
+            ],
+            "responses": [
+                "Ngành Khoa học Dữ liệu tại CTUET là ngành học về lý thuyết, phát triển và ứng dụng trong các lĩnh vực máy học, trí tuệ nhân tạo, và dữ liệu lớn. Sinh viên được đào tạo trong 4.5 năm để trở thành kỹ sư với văn bằng Data Science Engineer. Ngành được quản lý bởi Khoa Công nghệ thông tin với mã ngành đào tạo là 7480109."
+            ]
+        },
+        {
+            "tag": "obDS",
+            "patterns": [
+                "mục tiêu ngành khoa học dữ liệu",
+                "mục tiêu đào tạo ngành khoa học dữ liệu",
+                "học khoa học dữ liệu để làm gì"
+            ],
+            "responses": [
+                "Mục tiêu đào tạo ngành Khoa học Dữ liệu tại CTUET gồm:\n1. Kiến thức: Trang bị nền tảng vững chắc về quản lý, xử lý và phân tích dữ liệu lớn, có khả năng giải quyết các bài toán bằng thuật toán và công cụ tiên tiến.\n2. Kỹ năng: Phát triển khả năng phân tích, thiết kế và tích hợp các ứng dụng phân tích dữ liệu, kỹ năng làm việc nhóm và giao tiếp.\n3. Thái độ: Có đạo đức nghề nghiệp, ý thức trách nhiệm và khả năng học tập suốt đời."
+            ]
+        },
+        {
+            "tag": "knowDS",
+            "patterns": [
+                "khoa học dữ liệu học những gì",
+                "khoa học dữ liệu học những môn nào",
+                "chương trình học khoa học dữ liệu"
+            ],
+            "responses": [
+                "Chương trình đào tạo Khoa học Dữ liệu tại CTUET gồm 150 tín chỉ, bao gồm:\n1. Kiến thức cơ bản: Toán, Xác suất thống kê, Lập trình.\n2. Kiến thức chuyên ngành: Máy học, Trí tuệ nhân tạo, Khai phá dữ liệu, Học sâu, Xử lý ngôn ngữ tự nhiên, Thống kê Bayes.\n3. Thực hành: Đồ án chuyên ngành và khóa luận tốt nghiệp.\nTổng thời gian đào tạo là 4.5 năm với 127 tín chỉ bắt buộc và 23 tín chỉ tự chọn."
+            ]
+        },
+        {
+            "tag": "jobDS",
+            "patterns": [
+                "việc làm ngành khoa học dữ liệu",
+                "ngành khoa học dữ liệu ra trường làm gì",
+                "cơ hội việc làm khoa học dữ liệu"
+            ],
+            "responses": [
+                "Sau khi tốt nghiệp ngành Khoa học Dữ liệu tại CTUET, sinh viên có thể làm việc ở các vị trí:\n1. Kỹ sư phân tích dữ liệu tại các doanh nghiệp\n2. Chuyên gia AI/ML/Deep Learning\n3. Chuyên viên phân tích dữ liệu trong lĩnh vực tài chính, ngân hàng\n4. Nghiên cứu viên tại các viện nghiên cứu về AI và khoa học dữ liệu\n5. Phát triển các ứng dụng và giải pháp dựa trên dữ liệu\n6. Giảng viên, nghiên cứu viên tại các trường đại học"
+            ]
+        },
+        {
+            "tag": "introceLSCM",
+            "patterns": [
+                "logistics và quản lý chuỗi cung ứng",
+                "ngành logistics là gì",
+                "ngành logistics và quản lý chuỗi cung ứng"
+            ],
+            "responses": [
+                "Ngành Logistics và Quản lý chuỗi cung ứng tại CTUET là ngành học về quản lý, xử lý và vận hành các hệ thống logistics và chuỗi cung ứng. Được đào tạo với văn bằng Kỹ sư Logistics và Quản lý chuỗi cung ứng (Engineer of Logistics and Supply Chain Management), sinh viên được trang bị kiến thức khoa học cơ bản, kỹ thuật chuyên môn toàn diện và năng lực thực hành nghề nghiệp trong lĩnh vực logistics và quản lý chuỗi cung ứng."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obLSCM", 
+            "patterns": [
+                "mục tiêu ngành logistics",
+                "mục tiêu đào tạo ngành logistics và quản lý chuỗi cung ứng",
+                "học logistics để làm gì"
+            ],
+            "responses": [
+                "Mục tiêu đào tạo ngành Logistics và QLCCU bao gồm:\n- Có kiến thức lý luận chính trị cơ bản về Chủ nghĩa Mác-Lênin, Tư tưởng Hồ Chí Minh và đường lối cách mạng của Đảng\n- Có kiến thức nền tảng về toán học và khoa học tự nhiên để tiếp thu kiến thức chuyên nghiệp\n- Có kiến thức chuyên môn về phân tích, đánh giá, thiết kế, triển khai và vận hành hệ thống logistics và chuỗi cung ứng\n- Có khả năng hoạch định chiến lược và tổ chức hoạt động kinh doanh dịch vụ logistics \n Chương trình cung cấp các kỹ năng:\n- Kỹ năng đánh giá, phân tích và giải quyết vấn đề, ra quyết định và lãnh đạo\n- Kỹ năng giao tiếp, làm việc độc lập và làm việc nhóm\n- Kỹ năng sử dụng ngoại ngữ và công nghệ thông tin trong lĩnh vực logistics\n- Khả năng hướng dẫn và giám sát người khác thực hiện nhiệm vụ \n Về thái độ và trách nhiệm:\n- Có tính chuyên nghiệp, làm việc có kế hoạch và khoa học\n- Có tinh thần hợp tác và không ngừng học tập nâng cao trình độ\n- Có trách nhiệm với bản thân và nhóm\n- Yêu nước, yêu ngành nghề và làm việc theo pháp luật"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowLSCM",
+            "patterns": [
+                "logistics học những gì",
+                "kiến thức ngành logistics",
+                "chương trình học logistics gồm những gì"
+            ],
+            "responses": [
+                "Chương trình đào tạo gồm 150 tín chỉ với các khối kiến thức:\n1. Kiến thức chung:\n- Lý luận chính trị, pháp luật\n- Kiến thức cơ bản về toán học và khoa học tự nhiên\n- Ngoại ngữ và tin học ứng dụng\n\n2. Kiến thức chuyên môn:\n- Quản lý dự trữ và kho hàng\n- Quản lý chuỗi cung ứng\n- Vận tải và bảo hiểm\n- Nghiệp vụ kinh doanh ngoại thương\n- Logistics quốc tế\n- Quản lý mua hàng và phân phối \n Chương trình còn bao gồm:\n- Thực tập thực tế và đồ án chuyên ngành\n- Kỹ năng mềm và khởi nghiệp\n- Tiếng Anh chuyên ngành Logistics\n- Tin học ứng dụng trong ngành Logistics\nTổng thời gian đào tạo là 4.5 năm với 122 tín chỉ bắt buộc và 28 tín chỉ tự chọn."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "jobLSCM",
+            "patterns": [
+                "việc làm ngành logistics",
+                "ngành logistics ra trường làm gì",
+                "cơ hội việc làm logistics"
+            ],
+            "responses": [
+                "Sinh viên tốt nghiệp có thể làm việc tại:\n- Các doanh nghiệp dịch vụ logistics và vận tải\n- Doanh nghiệp xuất nhập khẩu\n- Các công ty giao nhận và kho vận\n- Cảng biển và hàng không\n- Các công ty thương mại điện tử\n- Bộ phận chuỗi cung ứng của các doanh nghiệp sản xuất \n Các vị trí công việc phổ biến:\n- Chuyên viên quản lý chuỗi cung ứng\n- Chuyên viên điều phối vận tải và kho bãi\n- Chuyên viên xuất nhập khẩu\n- Chuyên viên thu mua và quản lý hàng tồn kho\n- Chuyên viên dịch vụ khách hàng logistics\n- Chuyên viên giao nhận hàng hóa quốc tế \n Triển vọng nghề nghiệp:\n- Quản lý dự án logistics\n- Giám đốc điều hành chuỗi cung ứng\n- Giám đốc logistics\n- Quản lý kho vận và phân phối\n- Chuyên gia tư vấn logistics\n- Giảng viên và nghiên cứu viên trong lĩnh vực logistics"
+            ]
+        },
+        {
+            "tag": "introceIT",
+            "patterns": [
+                "công nghệ thông tin",
+                "ngành công nghệ thông tin",
+                "giới thiệu ngành công nghệ thông tin",
+                "ngành cntt"
+            ],
+            "responses": [
+                "Công nghệ Thông tin tại CTUET là ngành đào tạo kỹ sư có khả năng phát triển hạ tầng công nghệ thông tin, mạng và truyền thông, tích hợp công nghệ thông tin trong doanh nghiệp. Sinh viên được đào tạo trong 4.5 năm để nhận bằng Kỹ sư Công nghệ Thông tin (Information Technology Engineer), với mã ngành 7480201. Ngành được quản lý bởi Khoa Công nghệ thông tin."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obIT",
+            "patterns": [
+                "mục tiêu ngành công nghệ thông tin",
+                "mục tiêu đào tạo ngành công nghệ thông tin",
+                "học công nghệ thông tin để làm gì"
+            ],
+            "responses": [
+                "Về kiến thức:\n- Có kiến thức cơ bản về khoa học xã hội và tự nhiên\n- Kiến thức cơ sở ngành về công nghệ thông tin để giải quyết yêu cầu thực tiễn\n- Kiến thức chuyên ngành về thiết kế hệ thống thông tin, mạng và truyền thông, phát triển ứng dụng đa nền tảng \n Về kỹ năng:\n- Kỹ năng vận dụng kiến thức để phân tích, đánh giá và giải quyết vấn đề\n- Sử dụng thành thạo các công cụ phát triển phần mềm\n- Thiết kế, xây dựng và quản trị hệ thống thông tin\n- Kỹ năng giao tiếp và làm việc nhóm bằng tiếng Việt và tiếng Anh \n Về thái độ:\n- Có phẩm chất chính trị và đạo đức nghề nghiệp\n- Khả năng làm việc độc lập và theo nhóm\n- Khả năng nắm bắt công nghệ mới và học tập suốt đời\n- Có ý thức trách nhiệm với cộng đồng và xã hội"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowIT", 
+            "patterns": [
+                "công nghệ thông tin học những gì",
+                "học công nghệ thông tin học những môn nào",
+                "chương trình học công nghệ thông tin",
+                "môn học ngành công nghệ thông tin"
+            ],
+            "responses": [
+                "Chương trình đào tạo gồm 150 tín chỉ, trong đó:\n- Kiến thức đại cương: Toán, Lý luận chính trị, Ngoại ngữ\n- Kiến thức cơ sở: Cấu trúc dữ liệu, Giải thuật, Mạng máy tính, Cơ sở dữ liệu\n- Kiến thức chuyên ngành: Lập trình Web, Trí tuệ nhân tạo, Máy học ứng dụng, Blockchain, IoT\n- Các môn thực hành và đồ án chuyên ngành",
+                "Các môn học chính bao gồm:\n1. Lập trình: Web, Mobile, .NET, Java\n2. Cơ sở dữ liệu và hệ thống thông tin\n3. Mạng và truyền thông\n4. Trí tuệ nhân tạo và máy học\n5. Đồ họa máy tính\n6. Điện toán đám mây\n7. IoT và Blockchain"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ctCNTT",
+            "patterns": [
+                "cấu trúc chương trình",
+                "số tín chỉ ngành công nghệ thông tin",
+                "tín chỉ phải học"
+            ],
+            "responses": [
+                "Tổng số tín chỉ toàn khóa: 150 tín chỉ, trong đó:\n- Số tín chỉ bắt buộc: 130\n- Số tín chỉ tự chọn: 20\n\nPhân bố các khối kiến thức:\n1. Kiến thức đại cương: 46 tín chỉ\n2. Kiến thức cơ sở ngành\n3. Kiến thức chuyên ngành\n4. Khóa luận/Thực tập tốt nghiệp: 10 tín chỉ"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceSE",
+            "patterns": [
+                "kỹ thuật phần mềm",
+                "ngành kỹ thuật phần mềm",
+                "giới thiệu ngành kỹ thuật phần mềm",
+                "ngành ktpm"
+            ],
+            "responses": [
+                "Kỹ thuật Phần mềm (Software Engineering) tại CTUET là ngành đào tạo kỹ sư có khả năng thiết kế các hệ thống tính toán, phát triển phần mềm trong các lĩnh vực điện toán đám mây, lập trình nhúng và di động. Sinh viên được đào tạo trong 4.5 năm với mã ngành 7480103, chương trình do Khoa Công nghệ thông tin quản lý."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obSE",
+            "patterns": [
+                "mục tiêu ngành kỹ thuật phần mềm",
+                "mục tiêu đào tạo kỹ thuật phần mềm",
+                "học kỹ thuật phần mềm để làm gì"
+            ],
+            "responses": [
+                "Về kiến thức:\n- Kiến thức cơ bản về khoa học xã hội và tự nhiên\n- Khả năng thiết kế hệ thống tính toán và phát triển phần mềm\n- Chuyên sâu về điện toán đám mây, lập trình nhúng và di động \n Về kỹ năng:\n- Kỹ năng phân tích, đánh giá và viết báo cáo chuyên môn\n- Khả năng sử dụng tiếng Anh và công nghệ tiên tiến\n- Làm việc độc lập và theo nhóm hiệu quả\n- Kỹ năng quản lý và điều hành dự án phần mềm \n Về thái độ:\n- Đạo đức nghề nghiệp và ý thức kỷ luật\n- Tinh thần trách nhiệm và tác phong chuyên nghiệp\n- Khả năng tự học và nghiên cứu nâng cao trình độ"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowSE",
+            "patterns": [
+                "kỹ thuật phần mềm học những gì",
+                "chương trình học kỹ thuật phần mềm",
+                "môn học ngành kỹ thuật phần mềm"
+            ],
+            "responses": [
+                "Chương trình đào tạo gồm 150 tín chỉ (126 bắt buộc, 24 tự chọn) với các khối kiến thức:\n1. Kiến thức đại cương: Toán, Lý luận chính trị, Ngoại ngữ\n2. Kiến thức cơ sở ngành: Cấu trúc dữ liệu, Mạng máy tính, Cơ sở dữ liệu\n3. Kiến thức chuyên ngành:\n- Phân tích thiết kế hệ thống\n- Kiểm thử và đảm bảo chất lượng phần mềm\n- Kiến trúc và bảo trì phần mềm\n- Lập trình Web và di động\n- IoT và Blockchain \n Các kỹ năng thực hành:\n- Đồ án kỹ thuật phần mềm từ 1-4\n- Thực tập doanh nghiệp\n- Khóa luận tốt nghiệp"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cdKTPM",
+            "patterns": [
+                "chuẩn đầu ra kỹ thuật phần mềm",
+                "yêu cầu tốt nghiệp kỹ thuật phần mềm",
+                "kỹ sư phần mềm cần đạt những gì"
+            ],
+            "responses": [
+                "Chuẩn đầu ra về kiến thức:\n1. Kiến thức chung:\n- Vận dụng kiến thức cơ bản về khoa học xã hội và tự nhiên\n- Áp dụng toán học vào lĩnh vực phần mềm\n2. Kiến thức chuyên môn:\n- Sử dụng kiến thức cơ sở và chuyên ngành về công nghệ phần mềm\n- Phân tích và áp dụng quy trình phát triển phần mềm\n- Tổ chức quá trình phát triển phần mềm trong doanh nghiệp \n Chuẩn đầu ra về kỹ năng:\n1. Kỹ năng chung:\n- Tiếng Anh TOEIC 450 hoặc tương đương\n- Kỹ năng phân tích và truyền đạt giải pháp\n2. Kỹ năng chuyên môn:\n- Lựa chọn giải pháp phát triển và kiểm thử phần mềm\n- Phân tích dữ liệu và thiết kế kiến trúc phần mềm\n- Áp dụng kỹ năng thực hành vào quy trình phát triển"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceCAET",
+            "patterns": [
+                "công nghệ kỹ thuật điều khiển và tự động hóa",
+                "tự động hóa",
+                "ngành tự động hóa",
+                "điều khiển và tự động hóa",
+                "giới thiệu ngành tự động hóa"
+            ],
+            "responses": [
+                "Ngành Công nghệ Kỹ thuật Điều khiển và Tự động hóa (Automation and Control Engineering Technology) tại CTUET đào tạo kỹ sư có năng lực chuyên môn trong lĩnh vực điều khiển và tự động hóa. Chương trình đào tạo 4.5 năm với mã ngành 7510303, do Khoa Kỹ thuật Cơ khí quản lý, nhằm đáp ứng nhu cầu lao động có trình độ kỹ thuật cao của Đồng bằng sông Cửu Long và cả nước."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obCAET",
+            "patterns": [
+                "mục tiêu ngành công nghệ kỹ thuật điều khiển và tự động hóa",
+                "học tự động hóa để làm gì",
+                "mục tiêu đào tạo tự động hóa",
+                "ngành tự động hóa đào tạo gì"
+            ],
+            "responses": [
+                "Về kiến thức:\n- Kiến thức toán học, khoa học cơ bản, CNTT và kỹ thuật cơ sở về điều khiển-tự động hóa\n- Kiến thức chuyên ngành sâu trong lĩnh vực công nghệ kỹ thuật điều khiển và tự động hóa\n- Kiến thức nền tảng để học tập ở bậc cao hơn \n Về kỹ năng:\n- Kỹ năng phân tích, thiết kế và vận hành hệ thống tự động hóa\n- Kỹ năng sử dụng công nghệ và phần mềm chuyên ngành\n- Kỹ năng giao tiếp và làm việc nhóm\n- Khả năng nghiên cứu và phát triển ứng dụng \n Về thái độ:\n- Có phẩm chất đạo đức nghề nghiệp\n- Có khả năng làm việc độc lập và theo nhóm\n- Có tinh thần trách nhiệm và tác phong công nghiệp\n- Có ý thức học tập suốt đời"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowCAET",
+            "patterns": [
+                "chương trình học tự động hóa",
+                "học tự động hóa những môn gì",
+                "các môn học ngành tự động hóa",
+                "tín chỉ ngành tự động hóa"
+            ],
+            "responses": [
+                "Chương trình đào tạo gồm 161 tín chỉ (135 bắt buộc, 26 tự chọn) với các khối kiến thức:\n1. Kiến thức đại cương: 51 tín chỉ\n- Toán, Vật lý, Tin học\n- Lý luận chính trị và kỹ năng mềm\n2. Kiến thức cơ sở ngành: 37 tín chỉ\n- Mạch điện, điện tử\n- Kỹ thuật số và vi điều khiển\n- Cơ sở điều khiển tự động \n Kiến thức chuyên ngành: 73 tín chỉ\n- Điều khiển logic và PLC\n- Cảm biến và đo lường\n- Điều khiển thông minh và robot\n- Mạng truyền thông công nghiệp\n- Hệ thống SCADA\n- IoT và trí tuệ nhân tạo trong điều khiển"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceMET",
+            "patterns": [
+                "công nghệ kỹ thuật cơ điện tử",
+                "ngành cơ điện tử",
+                "giới thiệu ngành cơ điện tử",
+                "cơ điện tử là gì"
+            ],
+            "responses": [
+                "Công nghệ Kỹ thuật Cơ điện tử (Mechatronics Engineering Technology) tại CTUET là ngành đào tạo kỹ sư có thời gian học 4.5 năm với mã ngành 7510203. Ngành học tập trung vào việc tích hợp các thành phần cơ khí, điện tử, tin học và điều khiển, giúp sinh viên có khả năng làm chủ các công cụ kỹ thuật hiện đại và cải tiến chức năng của hệ thống kỹ thuật. Chương trình do Khoa Kỹ thuật Cơ khí quản lý."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obMET",
+            "patterns": [
+                "mục tiêu ngành cơ điện tử",
+                "học cơ điện tử để làm gì",
+                "mục tiêu đào tạo cơ điện tử"
+            ],
+            "responses": [
+                "Về kiến thức:\n- Kiến thức toán học, khoa học cơ bản và CNTT trong lĩnh vực cơ điện tử\n- Kiến thức chuyên ngành về công nghệ kỹ thuật cơ điện tử\n- Nền tảng kiến thức để học tập ở bậc cao hơn \n Về kỹ năng:\n- Kỹ năng kèm cặp và hướng dẫn công nhân bậc thấp\n- Kỹ năng giao tiếp và sử dụng tiếng Anh chuyên ngành\n- Kỹ năng đo lường, giám sát và phân tích dữ liệu\n- Kỹ năng thiết kế và vận hành hệ thống cơ điện tử\n- Sử dụng thành thạo phần mềm, phần cứng và ngôn ngữ lập trình chuyên ngành \n Về thái độ:\n- Ý thức trách nhiệm công dân và yêu nghề\n- Khả năng làm việc độc lập và theo nhóm\n- Có đạo đức nghề nghiệp và tác phong công nghiệp"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowMET",
+            "patterns": [
+                "chương trình học cơ điện tử",
+                "học cơ điện tử những môn gì",
+                "các môn học ngành cơ điện tử",
+                "tín chỉ ngành cơ điện tử"
+            ],
+            "responses": [
+                "Chương trình đào tạo gồm 161 tín chỉ (140 bắt buộc, 21 tự chọn) với các khối kiến thức:\n1. Kiến thức đại cương: 54 tín chỉ\n- Toán, Vật lý, Tin học\n- Lý luận chính trị và kỹ năng mềm\n2. Kiến thức cơ sở ngành: 38 tín chỉ\n- Kỹ thuật điện, điện tử số\n- Cơ học, vật liệu và gia công cơ khí\n- Vẽ kỹ thuật và lập trình \n Kiến thức chuyên ngành: 67 tín chỉ\n- Vi điều khiển và điều khiển logic\n- Robot công nghiệp và hệ thống tự động\n- CAD/CAM/CNC\n- Thị giác máy và điều khiển thông minh\n- Công nghệ thủy lực và khí nén\n- Mạng truyền thông công nghiệp\n- Thực tập và đồ án tốt nghiệp"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceBAdministration",
+            "patterns": [
+                "quản trị kinh doanh",
+                "ngành quản trị kinh doanh",
+                "giới thiệu ngành quản trị kinh doanh",
+                "thông tin về ngành quản trị kinh doanh"
+            ],
+            "responses": [
+                "Ngành Quản trị Kinh doanh (Business Administration) tại CTUET đào tạo cử nhân trong thời gian 4 năm với mã ngành 7340101. Chương trình do Khoa Quản lý Công nghiệp quản lý, tập trung đào tạo nguồn nhân lực có phẩm chất chính trị và năng lực chuyên môn để thực hiện công việc kinh doanh, quản trị trong các lĩnh vực chức năng, đổi mới sáng tạo và khởi nghiệp trong bối cảnh hội nhập và phát triển của quốc gia."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obBAdministration",
+            "patterns": [
+                "mục tiêu ngành quản trị kinh doanh",
+                "học quản trị kinh doanh để làm gì",
+                "mục tiêu đào tạo quản trị kinh doanh" 
+            ],
+            "responses": [
+                "Về kiến thức:\n- Kiến thức cơ bản về tự nhiên và xã hội\n- Lý thuyết và thực tiễn về kinh tế và quản trị kinh doanh\n- Kiến thức về kế toán, tài chính, marketing và quản trị doanh nghiệp\n- Khả năng hoạch định chiến lược và quản lý nguồn nhân lực \n Về kỹ năng:\n- Kỹ năng nhận thức và thực hành nghề nghiệp\n- Kỹ năng giao tiếp và làm việc nhóm\n- Khả năng phân tích và giải quyết vấn đề\n- Ứng dụng công nghệ thông tin trong quản lý \n Về thái độ:\n- Khả năng làm việc độc lập và theo nhóm\n- Tinh thần trách nhiệm với cá nhân và cộng đồng\n- Đạo đức nghề nghiệp và ý thức phục vụ đất nước\n- Khả năng học tập suốt đời"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowBAdministration",
+            "patterns": [
+                "chương trình học quản trị kinh doanh",
+                "học quản trị kinh doanh những môn gì",
+                "các môn học ngành quản trị kinh doanh",
+                "tín chỉ ngành quản trị kinh doanh"
+            ],
+            "responses": [
+                "Chương trình đào tạo gồm 141 tín chỉ (126 bắt buộc, 15 tự chọn) với các khối kiến thức:\n1. Kiến thức đại cương: 43 tín chỉ\n- Lý luận chính trị\n- Toán, Tin học, Ngoại ngữ\n- Pháp luật đại cương \n 2. Kiến thức cơ sở ngành: 34 tín chỉ\n- Quản trị học đại cương\n- Kinh tế vi mô và vĩ mô\n- Marketing căn bản\n- Kế toán và tài chính\n- Thống kê kinh tế \n 3. Kiến thức chuyên ngành: 64 tín chỉ\n- Quản trị nhân sự và chiến lược\n- Quản trị marketing và tài chính\n- Thương mại điện tử\n- Quản trị chất lượng và dự án\n- Thực tập và khóa luận tốt nghiệp"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceEL",
+            "patterns": [
+                "ngôn ngữ anh",
+                "ngành ngôn ngữ anh",
+                "giới thiệu ngành ngôn ngữ anh",
+                "thông tin về ngành ngôn ngữ anh"
+            ],
+            "responses": [
+                "Ngành Ngôn ngữ Anh (English Studies) tại CTUET đào tạo cử nhân trong 4.5 năm với mã ngành 7220201, do Khoa Khoa học xã hội quản lý. Chương trình đào tạo cử nhân có phẩm chất chính trị và năng lực chuyên môn, đặc biệt tập trung vào hai định hướng: biên-phiên dịch và giảng dạy-nghiên cứu, nhằm đáp ứng nhu cầu nguồn nhân lực cho vùng ĐBSCL và cả nước trong quá trình hội nhập và phát triển."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obEL", 
+            "patterns": [
+                "mục tiêu ngành ngôn ngữ anh",
+                "học ngôn ngữ anh để làm gì",
+                "mục tiêu đào tạo ngôn ngữ anh"
+            ],
+            "responses": [
+                "Về kiến thức:\n- Kiến thức cơ bản về lý luận chính trị, ngôn ngữ và văn hóa\n- Chuyên môn về biên-phiên dịch và giảng dạy-nghiên cứu\n- Khả năng quản lý và điều hành hoạt động chuyên môn\n- Đạt trình độ tiếng Anh C1 trở lên \n Về kỹ năng:\n- Kỹ năng ngôn ngữ Anh: Nghe, Nói, Đọc, Viết\n- Kỹ năng biên-phiên dịch trong nhiều lĩnh vực\n- Kỹ năng giảng dạy và nghiên cứu\n- Kỹ năng làm việc nhóm và giao tiếp đa văn hóa\n- Đạt trình độ ngoại ngữ 2 bậc 3/6 \n Về thái độ:\n- Khả năng làm việc độc lập và theo nhóm\n- Tinh thần trách nhiệm với cộng đồng\n- Đạo đức nghề nghiệp\n- Khả năng tự định hướng và phát triển"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowEL",
+            "patterns": [
+                "chương trình học ngôn ngữ anh",
+                "học ngôn ngữ anh những môn gì",
+                "các môn học ngành ngôn ngữ anh",
+                "tín chỉ ngành ngôn ngữ anh"
+            ],
+            "responses": [
+                "Chương trình đào tạo gồm 130 tín chỉ (110 bắt buộc, 20 tự chọn) với các khối kiến thức:\n1. Kiến thức đại cương: 38 tín chỉ\n- Lý luận chính trị\n- Tin học và ngoại ngữ 2 (Pháp/Nhật)\n- Giáo dục thể chất và quốc phòng \n 2. Kiến thức cơ sở ngành: 47 tín chỉ\n- Kỹ năng Nghe-Nói-Đọc-Viết tiếng Anh\n- Ngữ âm và ngữ pháp thực hành\n- Rèn luyện kỹ năng ngôn ngữ nâng cao \n 3. Kiến thức chuyên ngành: 56 tín chỉ\n- Ngôn ngữ học và văn hóa Anh-Mỹ\n- Phương pháp nghiên cứu\n- Biên-phiên dịch thực hành\n- Tiếng Anh chuyên ngành\n- Thực tập và khóa luận tốt nghiệp"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceFB",
+            "patterns": [
+                "tài chính ngân hàng là gì",
+                "ngành tài chính ngân hàng là gì",
+                "giới thiệu về ngành tài chính ngân hàng",
+                "cho tôi biết về ngành tài chính ngân hàng",
+                "tcnh là gì"
+            ],
+            "responses": [
+                "tài chính - ngân hàng là ngành đào tạo cử nhân có phẩm chất chính trị, ý thức trách nhiệm xã hội, đạo đức nghề nghiệp, có sức khỏe, có kiến thức, kỹ năng thực hành nghề nghiệp, có tính kỷ luật cao, đáp ứng tốt nhu cầu về nhân lực có chất lượng, chuyên nghiệp trong lĩnh vực tài chính - ngân hàng của thị trường lao động."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "obFB",
+            "patterns": [
+                "mục tiêu đào tạo ngành tài chính ngân hàng",
+                "mục tiêu ngành tài chính ngân hàng",
+                "học tài chính ngân hàng để làm gì",
+                "tại sao nên học tài chính ngân hàng"
+            ],
+            "responses": [
+                "mục tiêu đào tạo ngành tài chính ngân hàng là trang bị cho người học đầy đủ kiến thức từ kinh tế học căn bản đến chuyên môn sâu trong lĩnh vực tài chính - ngân hàng, kỹ năng thực hành nghề nghiệp, năng lực tự chủ và trách nhiệm làm nền tảng vững chắc cho sự thành công trong hoạt động có liên quan đến lĩnh vực tài chính - ngân hàng tại các ngân hàng, tổ chức tài chính, tổ chức tín dụng, doanh nghiệp và tổ chức khác.",
+                "chương trình trang bị kiến thức cơ bản về tự nhiên, xã hội để phục vụ phát triển nghề nghiệp và tự hoàn thiện bản thân của người học (po1). cung cấp kiến thức lý thuyết và thực tiễn thuộc lĩnh vực kinh tế nói chung và ngành tài chính - ngân hàng nói riêng (po2). giúp phát triển kỹ năng nghề nghiệp, giao tiếp, ngoại ngữ và sử dụng phần mềm máy tính chuyên dụng (po3, po4). đào tạo năng lực làm việc độc lập và theo nhóm, có ý thức trách nhiệm và đạo đức nghề nghiệp (po5, po6)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowFB",
+            "patterns": [
+                "kiến thức ngành tài chính ngân hàng",
+                "học ngành tài chính ngân hàng học những gì",
+                "chương trình học tài chính ngân hàng gồm những gì",
+                "tài chính ngân hàng học những môn nào"
+            ],
+            "responses": [
+                "chương trình đào tạo tài chính ngân hàng bao gồm 141 tín chỉ, trong đó: 120 tín chỉ bắt buộc và 21 tín chỉ tự chọn. sinh viên được học các kiến thức đại cương về chính trị, xã hội, tin học, ngoại ngữ. về chuyên ngành, sinh viên được trang bị kiến thức về tài chính, tiền tệ, ngân hàng, bảo hiểm, marketing, quản trị doanh nghiệp, các nghiệp vụ ngân hàng cá nhân và doanh nghiệp, thị trường chứng khoán, tài chính quốc tế, phân tích đầu tư, kế toán và kiểm toán.",
+                "sinh viên được trang bị các kỹ năng chuyên môn như: phân tích và giải quyết vấn đề trong lĩnh vực tài chính - ngân hàng, tổ chức thực hiện các hoạt động tài chính, kinh doanh tiền tệ, đầu tư tài chính, kinh doanh chứng khoán, và các nghiệp vụ ngân hàng khác. ngoài ra còn có các kỹ năng mềm như giao tiếp, thuyết trình, làm việc nhóm, và sử dụng công nghệ thông tin chuyên ngành."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "cdFB",
+            "patterns": [
+                "chuẩn đầu ra ngành tài chính ngân hàng",
+                "tài chính ngân hàng ra trường cần đạt những gì",
+                "yêu cầu tốt nghiệp ngành tài chính ngân hàng"
+            ],
+            "responses": [
+                "về kiến thức: sinh viên có kiến thức cơ bản về chính trị, xã hội, pháp luật, tin học và ngoại ngữ (plo-01, plo-02). có kiến thức chuyên môn về tài chính, ngân hàng, kinh tế và quản trị (plo-03 đến plo-09). \n về kỹ năng: có khả năng phân tích và giải quyết vấn đề chuyên môn, thực hiện nghiệp vụ tài chính - ngân hàng, giao tiếp và làm việc nhóm hiệu quả (plo-10 đến plo-14) \n về thái độ: có năng lực làm việc độc lập và theo nhóm, có ý thức trách nhiệm và đạo đức nghề nghiệp, tuân thủ pháp luật về kinh doanh tài chính, tiền tệ, ngân hàng (plo-15 đến plo-17)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introceLaw",
+            "patterns": [
+                "ngành luật là gì",
+                "giới thiệu về ngành luật",
+                "cho tôi biết về ngành luật",
+                "chương trình đào tạo ngành luật",
+                "học ngành luật như thế nào"
+            ],
+            "responses": [
+                "ngành luật (law) là chương trình đào tạo trình độ đại học với thời gian học 4 năm, đào tạo cử nhân luật theo hình thức chính quy tập trung. chương trình gồm 130 tín chỉ (không tính các học phần điều kiện), được quản lý bởi khoa khoa học xã hội, trường đại học kỹ thuật - công nghệ cần thơ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ctLuat",
+            "patterns": [
+                "cấu trúc chương trình ngành luật",
+                "chương trình học ngành luật gồm những gì",
+                "khối kiến thức ngành luật",
+                "các môn học ngành luật"
+            ],
+            "responses": [
+                "chương trình đào tạo ngành luật bao gồm 141 tín chỉ, trong đó: 125 tín chỉ bắt buộc và 16 tín chỉ tự chọn. chương trình được chia thành các khối kiến thức: kiến thức giáo dục đại cương (40 tín chỉ), kiến thức cơ sở ngành (35 tín chỉ), kiến thức chuyên ngành (56 tín chỉ), và thực tập tốt nghiệp (10 tín chỉ)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "thucTapLuat",
+            "patterns": [
+                "thực tập ngành luật",
+                "tốt nghiệp ngành luật cần làm gì",
+                "khóa luận tốt nghiệp ngành luật",
+                "học thực hành ngành luật như thế nào"
+            ],
+            "responses": [
+                "sinh viên ngành luật phải hoàn thành học phần thực hành nghề luật (2 tín chỉ), thực tập tốt nghiệp (10 tín chỉ) và có thể chọn làm khóa luận tốt nghiệp (10 tín chỉ) hoặc học các học phần thay thế như: pháp luật về an sinh xã hội, pháp luật về xử lý hành chính, pháp luật về kinh doanh dịch vụ logistics, pháp luật về sở hữu trí tuệ và chuyển giao công nghệ, nghiệp vụ tòa án."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "knowLaw",
+            "patterns": [
+                "kiến thức cơ sở ngành luật",
+                "học những gì trong cơ sở ngành luật",
+                "môn học cơ sở ngành luật",
+                "nền tảng ngành luật gồm những gì"
+            ],
+            "responses": [
+                "kiến thức cơ sở ngành luật bao gồm: lý luận nhà nước và pháp luật, lịch sử các học thuyết pháp lý, luật hiến pháp, luật so sánh, luật dân sự, luật hình sự, luật hành chính. ngoài ra còn có các môn bổ trợ như phương pháp nghiên cứu khoa học luật, kỹ năng soạn thảo văn bản, anh văn chuyên ngành luật và tâm lý học tư pháp."
+            ],
+            "context_set": ""
+        }
+    ]
+}
