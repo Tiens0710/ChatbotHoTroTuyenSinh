@@ -1,5 +1,3 @@
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
 import streamlit as st
 import random
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
